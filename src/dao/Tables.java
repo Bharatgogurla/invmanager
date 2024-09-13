@@ -16,8 +16,9 @@ public class Tables {
             con = ConnectionProvider.getCon();
             st = con.createStatement();
           //st.executeUpdate("create table appuser (appuser_pk int AUTO_INCREMENT primary key,userRole varchar(50),name varchar(200),mobilenumber varchar(50),email varchar(200),password varchar(50),address varchar(200),status varchar(50))");            
-            st.executeUpdate("insert into appuser(userRole,name,mobilenumber,email,password,address,status) values('superAdmin','super Admin','12345','superadmin@testmail.com','admin','india','Active')"); 
-            JOptionPane.showMessageDialog(null,"table created successfully");
+          //st.executeUpdate("insert into appuser(userRole,name,mobilenumber,email,password,address,status) values('superAdmin','super Admin','12345','bharatgogurla@gmail.com','123456','india','Active')"); 
+          //st.executeUpdate("create table category(category_pk int AUTO_INCREMENT primary key,name varchar(200))");
+          JOptionPane.showMessageDialog(null,"table created successfully");
         }
         
         catch(Exception e){
